@@ -45,7 +45,7 @@ struct Parking {
             }
         }
         totals.0 += 1
-        totals.1 *= fee
+        totals.1 += fee
         return onSucces(fee)
     }
     //funcion para el calculo del fee
